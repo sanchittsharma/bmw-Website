@@ -1,0 +1,37 @@
+body{
+  background-color: black;
+  color: white;
+    
+}
+
+h1{
+    margin-top: 10px;
+    background-image: linear-gradient(to bottom right,rgb(0, 61, 115),#035a7d, #bf0000, #ecbdbd);
+    text-align: center;
+}
+section{
+    margin-top: 20px;
+}
+h2{
+    margin: 20px;
+    color: #0066b1;
+    text-shadow: 0px 0px 15px #0066b1;
+}
+img{
+    width: 500px;
+}
+.team{
+
+    /* height: 50vw; */
+    
+    
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+    padding: 20px;
+    /* width: 50%;
+    height: 50%; */
+}
