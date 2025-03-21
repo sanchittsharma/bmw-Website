@@ -1,0 +1,126 @@
+.navbar{
+    height: 13vh;
+    font-size: larger;
+    /* top: 30px; */
+    /* z-index: 1030; */
+}
+.logo{
+    height: 33px;
+    width: 38px;
+    
+
+}
+
+body{
+    overflow-x: hidden;
+    scroll-behavior:smooth;
+}
+.navsearch{
+    color: white;
+    border: 1px solid blue;
+
+}
+.navsearch:hover{
+    background-color: #0066b1;
+    box-shadow: 0px 0px 20px -1px #0066b1
+}
+@media (max-width:771px) {
+    .navbar{
+        height: 8vh;
+    }
+    .nav-link{
+        height: fit-content;
+        color: #7a7575;
+        background-color: rgba(0, 36, 54, 0.922);
+        width: 50%;
+        position: relative;
+        left: -15px;
+        padding-left: 10px;
+        top: 17px;
+    }
+    .welcome h2{
+        font-size: small;
+    }
+    
+}
+.welcome{
+    height: 20vh;
+    margin: 20px;
+    
+}
+.welcome h2{
+    font-family: Boldonse, system-ui ;
+    
+}
+
+#carouselExampleCaptions{
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.carousel-item{
+    height: 100%;
+}
+.card-title {
+    text-shadow: 5px 5px 15px 2px black;
+    
+}
+
+.services{
+    /* background-color: ; */
+   position: sticky;
+    background-image: linear-gradient(to bottom right,rgb(0, 61, 115),#035a7d, #bf0000, #ecbdbd);
+    color: white;
+    height: fit-content;
+    width: 100vw;
+    margin: 0;
+    padding-bottom: 25px;
+}
+.services h2{
+    text-align: center;
+    padding: 20px;
+}
+/* .card{
+    display: inline-block;
+} */
+.servicediv{
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+    
+    
+}
+.card:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 20px white;
+    
+}
+
+
+.icon-bar{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 2%;
+    height: 80px;
+    width: 100vw;
+}
+.icon-bar svg{
+    /* filter: invert(1); */
+    color: white;
+    
+}
+.icon-bar svg:hover{
+    filter: invert(0);
+    width: 32px;
+    color: #008cff;
+}
+.background{
+    background-color: rgba(0, 36, 54, 0.922);
+}
+.profile{
+    margin-right: 10px;
+}
